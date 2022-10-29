@@ -13,4 +13,4 @@ app.MapGet("/api/flaky-endpoint", () =>
 
     return Results.Ok("Some valuable result");
 });
-app.Run();
+app.Run("http://localhost:5000");
